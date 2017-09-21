@@ -49,7 +49,7 @@ export default {
       if(tagName==="LI"||tagName==="IMG"){
         this.$store.commit('increaseViewedPages')
         let type=e.target.dataset.type;
-        this.$router.push({path:'/my_content/'+type,})
+        this.$router.push({path:'/m/my_content/'+type,})
       }
     }
   },

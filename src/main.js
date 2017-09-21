@@ -34,11 +34,11 @@ import Index from "./components/index/index.vue"
 //路由
 const routes=[
   {
-    path:'/my_content/:type',
+    path:'/m/my_content/:type',
     component:Content
   },
   {
-    path:'/',
+    path:'/m',
     component:Index
   }
 ]
